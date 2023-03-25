@@ -125,7 +125,7 @@ d3.json(
         return d;
       })
       .attr('index', (d, i) => i)
-      .style('fill', '#33adff')
+      .style('fill', 'green')
       .attr('transform', 'translate(60, 0)')
       .on('mouseover', function (event, d) {
          var i = this.getAttribute('index');
