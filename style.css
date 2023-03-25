@@ -9,14 +9,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto';
-    background-color: #708090;
+    font-family: 'Verdana';
+    background-color: #333;
     background-size: 64px 128px;
   }
   .main .container {
     height: 560px;
     width: 900px;
-    background-color: #fff;
+    background-color: #efefef;
     display: flex;
     flex-direction: column;
     padding: 20px 20px 20px 20px;
@@ -47,7 +47,7 @@
     height: 50px;
     padding: 2px;
     font: 12px;
-    background: lightsteelblue;
+    background: #db880d;
     box-shadow: 1px 1px 10px;
     border-radius: 2px;
     pointer-events: none;
@@ -55,18 +55,18 @@
   
   .overlay {
     position: absolute;
-    background: #fff;
+    background: #efefef;
     pointer-events: none;
   }
   
   #y-axis path {
-    stroke: black;
+    stroke: #333;
     stroke-width: 1;
     fill: none;
   }
   
   #x-axis path {
-    stroke: black;
+    stroke: #333;
     stroke-width: 1;
     fill: none;
   }
